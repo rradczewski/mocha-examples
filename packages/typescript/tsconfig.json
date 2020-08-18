@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "target": "ES2019",
     "outDir": "./lib",
-    "rootDir": "./src"
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }
